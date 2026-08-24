@@ -19,11 +19,13 @@ maker 하나에 앱이 여러 개 붙는 구조를 그대로 따른다.
 
 ```text
 pemvio/privacy/index.html    → https://arachaaa.github.io/pemvio/privacy/
+pemvio/support/index.html    → https://arachaaa.github.io/pemvio/support/
 ```
 
 | 페이지 | 쓰이는 곳 |
 |---|---|
 | `pemvio/privacy/` | App Store Connect 의 **Privacy Policy URL** · 앱 스토어 페이지에 공개 |
+| `pemvio/support/` | App Store Connect 의 **Support URL**(필수) · 앱 스토어 페이지의 「앱 지원」 링크 |
 
 ## 고칠 때
 
