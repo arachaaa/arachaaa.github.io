@@ -18,14 +18,21 @@ GitHub Pages 는 무료 플랜에서 **public 저장소에만** 붙는다.
 maker 하나에 앱이 여러 개 붙는 구조를 그대로 따른다.
 
 ```text
+app-ads.txt                  → https://arachaaa.github.io/app-ads.txt
+pemvio/index.html            → https://arachaaa.github.io/pemvio/
 pemvio/privacy/index.html    → https://arachaaa.github.io/pemvio/privacy/
 pemvio/support/index.html    → https://arachaaa.github.io/pemvio/support/
 ```
 
 | 페이지 | 쓰이는 곳 |
 |---|---|
+| `pemvio/` | App Store Connect 의 **Marketing URL** · 앱 스토어 페이지의 「개발자 웹사이트」 링크 |
 | `pemvio/privacy/` | App Store Connect 의 **Privacy Policy URL** · 앱 스토어 페이지에 공개 |
 | `pemvio/support/` | App Store Connect 의 **Support URL**(필수) · 앱 스토어 페이지의 「앱 지원」 링크 |
+
+🔴 **`app-ads.txt` 는 반드시 도메인 루트다** — 앱별 하위 경로가 아니다. AdMob 이
+`https://<호스트>/app-ads.txt` 만 크롤하고, 없으면 그 앱의 광고 게재가 제한된다.
+**앱이 늘면 줄을 추가하는 것이 아니라** 같은 publisher 면 한 줄로 전부 덮인다.
 
 ## 고칠 때
 
